@@ -1154,7 +1154,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"semester\": 2,\n    \"subjectId\" : \"67ebd9e463f2cc5cc838ae6e\",\n    \"presentStudents\": [\n        \n    ]\n}",
+							"raw": "{\n    \"semester\": 1,\n    \"subjectId\" : \"67ebd9f063f2cc5cc838ae70\",\n    \"lectureDate\": \"2024-04-07\",\n    \"presentStudents\": [\n        \"67ef6314e576e23aceedb9f9\"\n    ]\n}",
 							"options": {
 								"raw": {
 									"language": "json"
