@@ -6,13 +6,13 @@ import org.springframework.http.HttpStatusCode;
 @Data
 public class ApiResponse<T> {
 
-    private HttpStatusCode status;
+    private int status;
     private boolean success;
     private String message;
     private T data;
 
     public ApiResponse(HttpStatusCode status, boolean success, String message, T data) {
-        this.status = status;
+        this.status = status.value();
         this.success = success;
         this.message = message;
         this.data = data;

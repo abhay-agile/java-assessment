@@ -48,6 +48,9 @@ public class SecurityConfig {
                         .authenticated()
                 )
                 .exceptionHandling(exception -> exception
+                        .authenticationEntryPoint(new CustomAuthenticationHandler())
+                )
+                .exceptionHandling(exception -> exception
                         .accessDeniedHandler(new CustomAccessDeniedHandler())
                 )
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
